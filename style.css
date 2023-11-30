@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(250, 154, 120);
+    height: 100vh;
+    font-family: 'Kumbh Sans' , sans-serif;
+    font-size: 20px;
+}
+
+hr{
+    width: 100%;
+}
+
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.descricao-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.descricao-perfil .informacao-perfil img{
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.descricao-perfil .contatos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.contatos .informacao .contador,
+.descricao-perfil .informacao-perfil p{
+    font-weight: 700;
+}
+
+.descricao-perfil .informacao-perfil .idade,
+.descricao-perfil .informacao-perfil .cidade,
+.contatos .informacao .tipo-contador{
+    color: hsl(227, 10%, 46%);
+}
